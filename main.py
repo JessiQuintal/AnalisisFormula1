@@ -157,6 +157,11 @@ def pagina_graficas(dataset):
 def pagina_modelo(dataset):
     st.image('logoF1.png', width=200)
     st.markdown('<h1 style="color:#800020;">Modelo de regresión lineal</h1>', unsafe_allow_html=True)
+    st.markdown("""
+        Consultar posiciones para predecir resultados del Gran Premio de Miami 2023:
+        <br>
+        [https://www.total-motorsport.com/f1-driver-constructor-standings-after-2023-azerbaijan-grand-prix/](https://www.total-motorsport.com/f1-driver-constructor-standings-after-2023-azerbaijan-grand-prix/)
+        """, unsafe_allow_html=True)
 
     df = dataset
 
