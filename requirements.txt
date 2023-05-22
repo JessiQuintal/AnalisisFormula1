@@ -2,3 +2,6 @@ streamlit
 pandas
 pymongo
 plotly
+matplotlib.pyplot
+scikit-learn
+numpy
